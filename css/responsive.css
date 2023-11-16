@@ -1,0 +1,309 @@
+/*===========Responsive css  ==========*/
+
+@media only screen and (max-width: 1600px) {
+  .menu {
+    flex-direction: column;
+    background-color: #151418;
+    align-items: start;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 40px;
+    border-top: 1px solid #ff472478;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .home-banner .carousel-inner .item .carousel-caption h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 100%;
+  }
+
+  .py-130 {
+    padding: 80px 0;
+  }
+
+  .carousel-inner p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .pergraph-data p {
+    font-size: 18px;
+  }
+
+  section.hotel-gallry .row {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .hotel_garry_text p {
+    text-align: center;
+  }
+
+  .col-md-12.hotel_garry_text_main .hotel_garry_text {
+    margin-top: 0;
+  }
+
+  section.hotel-gallry {
+    padding: 80px 0;
+  }
+
+  .main-wrapper {
+    padding: 10px;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-column-gap: 15px;
+  }
+
+  .header-wraper {
+    padding: 10px 25px;
+  }
+
+  .header-wraper h2 {
+    font-size: 18px;
+  }
+
+  a.btn-path {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .contentwraper-data {
+    margin-bottom: 80px;
+  }
+
+  .tile-inner-sec .img-path img {
+    height: 100%;
+  }
+
+  .border-zigzag-up h4 {
+    font-size: 20px;
+  }
+
+  .casino .tile-inner-sec .img-path img {
+    height: 150px;
+  }
+
+  section#sports-page .tile-inner-sec .img-path img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section#sports-page .tile-inner-sec .img-path img {
+    height: 200px;
+  }
+
+  section.hotel-gallry .row.left-galry {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+
+  .hetel_gallary_img img {
+    height: 300px;
+  }
+
+  .hotel_garry_text {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .py-130 {
+    padding: 50px 0;
+  }
+
+  section.hotel-gallry {
+    padding: 50px 0;
+  }
+
+  .footer-widget {
+    justify-content: center;
+  }
+
+  ul.social-media.d-md-flex.align-items-center.justify-content-center {
+    display: flex;
+  }
+
+  .contentwraper-data.top-spc {
+    padding-top: 80px;
+  }
+
+  a#toTopBtn {
+    left: 88%;
+  }
+
+  .main-wrapper {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .tile-inner-sec .img-path img {
+    height: 250px;
+  }
+
+  .contetent-path p {
+    text-align: center;
+  }
+
+  .btm-text h5 {
+    font-size: 22px;
+  }
+
+  .main-wrapper>div {
+    padding-right: 0;
+  }
+
+  .carousel-caption.my-auto h3 {
+    font-size: 28px;
+  }
+
+  .space-devide-wrapper {
+    grid-template-columns: 1fr;
+    margin-top: 25px;
+    grid-row-gap: 50px;
+  }
+
+  .flate-gallry .row .hotel_garry_text {
+    padding: 20px 0;
+  }
+
+  .left-bar-text p {
+    text-align: center;
+  }
+
+  .casino .contetent-path {
+    align-items: center !important;
+  }
+
+  .text-inner-path {
+    text-align: center;
+  }
+
+  .contact-form-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-wrapper .left-bar {
+    order: 2;
+    text-align: center;
+  }
+
+  .left-bar ul.widget-list li a {
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+  .home-banner .carousel-inner .item .carousel-caption h2 {
+    font-size: 24px;
+  }
+
+  section#sports-page .tile-inner-sec:last-child {
+    margin: 0;
+  }
+
+  .heading-design::after {
+    height: 7px;
+  }
+
+  .carousel-inner p {
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+
+  .pergraph-data p {
+    font-size: 16px;
+  }
+
+  .hetel_gallary_img img {
+    height: 240px;
+  }
+
+  .contentwraper-data {
+    margin-bottom: 50px;
+  }
+
+  section.hotel-gallry .row .col-md-6.hotel_garry_text_main {
+    padding: 0;
+  }
+
+  a.btn-path {
+    padding: 6px 19px;
+    font-size: 14px;
+  }
+
+  .flate-gallry .row .hotel_garry_text {
+    padding-bottom: 0;
+  }
+
+  .contentwraper-data.top-spc {
+    padding-top: 50px;
+  }
+
+  a#toTopBtn {
+    left: 85%;
+  }
+
+  .border-zigzag-up h4 {
+    font-size: 18px;
+  }
+
+  .tile-inner-sec .img-path img {
+    height: 200px;
+  }
+
+  .main-wrapper {
+    padding: 10px;
+  }
+
+  .main-wrapper>div {
+    padding-right: 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .carousel-caption.my-auto h3 {
+    font-size: 22px;
+  }
+
+  .left-bar-text p {
+    font-size: 16px;
+  }
+
+  .hotel_garry_text h4 {
+    font-size: 23px;
+  }
+
+  h3.text-heading-casion {
+    font-size: 22px !important;
+  }
+}
