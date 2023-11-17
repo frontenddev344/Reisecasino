@@ -62,8 +62,9 @@
                                 </span></h2>
                         </div>
                     </div>
-                    </a>
+
                 </div>
+            </div>
         </section>
         <!--banner ends here-->
         <!--Rule-war section start here-->
@@ -100,12 +101,12 @@
                         </ul>
                     </div>
                     <div class="right-bar">
-                        <form action="" class="contact-form">
+                        <form class="contact-form">
                             <input type="text" placeholder="Vorname" class="input-area">
                             <input type="text" placeholder="Nachname" class="input-area">
                             <input type="text" placeholder="Email" class="input-area">
-                            <textarea name="" id="" cols="20" rows="5" class="input-area"
-                                placeholder="Massage. . ."></textarea>
+                            <textarea id="" cols="20" rows="5" class="input-area" placeholder="Massage. . ."></textarea>
+                            <a href="" class="btn-path">einreichen</a>
                         </form>
                     </div>
                 </div>
@@ -289,6 +290,19 @@
             }
             return "";
         }
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) { // Change 50 to the scroll position you prefer
+                    $('body').addClass('scrolled');
+                } else {
+                    $('body').removeClass('scrolled');
+                }
+            });
+        });
     </script>
 
 

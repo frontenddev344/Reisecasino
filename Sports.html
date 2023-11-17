@@ -57,12 +57,12 @@
                         <img src="images/JACK-Cleveland-Sportsbook-1024x574.jpg" alt="Los Angeles"
                             class="img-fluid w-100">
                         <div class="carousel-caption my-auto">
-                            <h2 class="text-white"><span>Casino – Sport</span></h2>
+                            <h2 class="text-white"><span>Sport</span></h2>
                             <h3>Sportwetten in Las Vegas: Wo Unterhaltung auf Wetten trifft</h3>
                         </div>
                     </div>
-                    </a>
                 </div>
+            </div>
         </section>
         <!--banner ends here-->
         <!--Rule-war section start here-->
@@ -186,8 +186,6 @@
                         regelmäßig stattfinden. Abhängig von Ihren Interessen und Ihrem Budget finden Sie den
                         perfekten Ort für Ihren Las Vegas-Aufenthalt.</p>
                 </div> -->
-
-            </div>
 
             </div>
         </section>
@@ -504,6 +502,19 @@
         }
     </script>
 
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) { // Change 50 to the scroll position you prefer
+                    $('body').addClass('scrolled');
+                } else {
+                    $('body').removeClass('scrolled');
+                }
+            });
+        });
+    </script>
 
 </body>
 

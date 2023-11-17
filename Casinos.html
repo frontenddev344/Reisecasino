@@ -59,8 +59,8 @@
                             <h2 class="text-white"><span>Casinos</span></h2>
                         </div>
                     </div>
-                    </a>
                 </div>
+            </div>
         </section>
         <!--banner ends here-->
         <!--Rule-war section start here-->
@@ -266,8 +266,6 @@
                 </div> -->
 
             </div>
-
-            </div>
         </section>
         <!-- End Tile path design -->
 
@@ -450,6 +448,19 @@
             }
             return "";
         }
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) { // Change 50 to the scroll position you prefer
+                    $('body').addClass('scrolled');
+                } else {
+                    $('body').removeClass('scrolled');
+                }
+            });
+        });
     </script>
 
 </body>

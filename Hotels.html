@@ -60,8 +60,8 @@
                             <h3>Wo Luxus auf Vielfalt trifft</h3>
                         </div>
                     </div>
-                    </a>
                 </div>
+            </div>
         </section>
         <!--banner ends here-->
         <!--Rule-war section start here-->
@@ -139,7 +139,8 @@
                                 Suites bieten höchsten Luxus und einen personalisierten Service.</p>
                         </div>
                         <div class="link-path">
-                            <a href="https://www.venetianlasvegas.com/" class="btn-path" target="_blank">Mehr sehen</a>
+                            <a href="https://aria.mgmresorts.com/en/hotel.html" class="btn-path" target="_blank">Mehr
+                                sehen</a>
                         </div>
                     </div>
 
@@ -185,8 +186,7 @@
                                 Eggslut.</p>
                         </div>
                         <div class="link-path">
-                            <a href="https://bellagio.mgmresorts.com/en.html?ecid=GMB_BE_HO" class="btn-path"
-                                target="_blank">Mehr
+                            <a href="https://www.cosmopolitanlasvegas.com/" class="btn-path" target="_blank">Mehr
                                 sehen</a>
                         </div>
                     </div>
@@ -229,11 +229,8 @@
                                 für die Aufführungen hochkarätiger Künstler wie Celine Dion und Elton John.</p>
                         </div>
                         <div class="link-path">
-                            <a href="https://www.caesars.com/caesars-
-                            palace?utm_campaign=GMB&amp;utm_source=google&amp;utm_medium=local&amp;utm_ter
-                            m=CaesarsPalaceLasVegasHotelandCasino&amp;utm_content=hotel&amp;y_source=1_N
-                            DM2Njg2Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ==" class="btn-path" target="_blank">Mehr
-                                sehen</a>
+                            <a href="https://www.caesars.com/caesars-palace?utm_campaign=GMB&amp;utm_source=google&amp;utm_medium=local&amp;utm_term=CaesarsPalaceLasVegasHotelandCasino&amp;utm_content=hotel&amp;y_source=1_NDM2Njg2Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ=="
+                                class="btn-path" target="_blank">Mehr sehen</a>
                         </div>
                     </div>
                 </div>
@@ -315,8 +312,6 @@
                         regelmäßig stattfinden. Abhängig von Ihren Interessen und Ihrem Budget finden Sie den
                         perfekten Ort für Ihren Las Vegas-Aufenthalt.</p>
                 </div>
-
-            </div>
 
             </div>
         </section>
@@ -500,7 +495,19 @@
             return "";
         }
     </script>
+    <script>
 
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) { // Change 50 to the scroll position you prefer
+                    $('body').addClass('scrolled');
+                } else {
+                    $('body').removeClass('scrolled');
+                }
+            });
+        });
+    </script>
 
 </body>
 
