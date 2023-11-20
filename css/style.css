@@ -840,7 +840,7 @@ footer.footer {
 }
 
 .home-banner .carousel-inner .item img {
-    height: 100vh !important;
+    height: 80vh !important;
     object-fit: cover;
 }
 
@@ -1638,4 +1638,8 @@ body {
 
 .header-wraper a:hover {
     color: #fff;
+}
+
+.copyright-bar ul.social-media li a:hover {
+    background: #484545;
 }

@@ -224,6 +224,10 @@
     font-size: 24px;
   }
 
+  .space-card-wrapper .top-heading-text {
+    margin-bottom: 10px;
+  }
+
   section#sports-page .tile-inner-sec:last-child {
     margin: 0;
   }
