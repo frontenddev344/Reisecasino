@@ -315,4 +315,8 @@
     width: 100%;
     max-width: 140px !important;
   }
+
+  .header .menu {
+    top: 75px !important;
+  }
 }
