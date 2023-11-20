@@ -1647,3 +1647,7 @@ body {
 .hotel .btm-text h5 {
     margin-top: 15px !important;
 }
+
+.header-wraper a {
+    color: #fff;
+}
