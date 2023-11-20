@@ -310,4 +310,9 @@
   h3.text-heading-casion {
     font-size: 22px !important;
   }
+
+  .header .logo img {
+    width: 100%;
+    max-width: 140px;
+  }
 }
