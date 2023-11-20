@@ -1643,3 +1643,7 @@ body {
 .copyright-bar ul.social-media li a:hover {
     background: #484545;
 }
+
+.hotel .btm-text h5 {
+    margin-top: 15px !important;
+}
